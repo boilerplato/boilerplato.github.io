@@ -6,9 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --hot",
     "build": "webpack --config webpack.config.prod.js",
-    "fetch-install-script": "curl -fsSL https://raw.githubusercontent.com/boilerplato/boilerplato/master/install.sh > install.sh",
-    "deploy-to-gh-pages": "git checkout master && rm -rf static && cp -r ./dist/* . && npm run fetch-install-script && git add --all && git commit -m 'Make a build' && git push",
-    "release": "git push origin develop && npm run build && npm run deploy-to-gh-pages && git checkout develop"
+    "fetch-install-script": "curl -fsSL https://raw.githubusercontent.com/boilerplato/boilerplato/master/install.sh > ./dist/install.sh",
+    "deploy-to-gh-pages": "git checkout master && rm -rf static && cp -r ./dist/* . && git add --all && git commit -m 'Make a build' && git push",
+    "release": "git push origin develop && npm run build && npm run fetch-install-script && npm run deploy-to-gh-pages && git checkout develop"
   },
   "author": "Rousan Ali <hello@rousan.io> (https://rousan.io/)",
   "license": "MIT",
