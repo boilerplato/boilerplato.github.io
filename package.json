@@ -5,7 +5,7 @@
   "description": "The Website https://boilerplato.com",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --hot",
-    "build": "webpack --config webpack.config.prod.js && rm -rf docs && cp -r dist docs"
+    "build": "webpack --config webpack.config.prod.js"
   },
   "author": "Rousan Ali <hello@rousan.io> (https://rousan.io/)",
   "license": "MIT",
