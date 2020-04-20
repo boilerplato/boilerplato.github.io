@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
 import './index.css';
-import * as fooActions from '../../store/foo/actions';
 
 class Home extends Component {
   constructor(props) {
@@ -25,15 +22,4 @@ class Home extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({
-  foo: state.foo,
-  bar: state.bar,
-});
-
-const mapDispatchToProps = (dispatch) => bindActionCreators({
-  ...fooActions
-}, dispatch);
-
-const enhance = connect(mapStateToProps, mapDispatchToProps);
-
-export default withRouter(enhance(Home));
+export default withRouter(Home);
