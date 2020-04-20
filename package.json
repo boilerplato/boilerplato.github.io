@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --config webpack.config.dev.js --hot",
     "build": "webpack --config webpack.config.prod.js",
     "deploy-to-gh-pages": "git checkout master && cp -r ./dist/* . && git add --all && git commit -m 'Make a build' && git push",
-    "release": "git push origin develop && npm run build && npm run deploy-to-gh-pages"
+    "release": "git push origin develop && npm run build && npm run deploy-to-gh-pages && git checkout develop"
   },
   "author": "Rousan Ali <hello@rousan.io> (https://rousan.io/)",
   "license": "MIT",
