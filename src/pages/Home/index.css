@@ -1,0 +1,44 @@
+.home {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.home .content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home .content .app-title {
+  padding: 0;
+  margin: 0;
+  /* color: #34495e; */
+  color: #34495ee3;
+  font-weight: 200;
+}
+
+.home a {
+  border-radius: 2rem;
+  border: 1px solid #42b983;
+  box-sizing: border-box;
+  color: #42b983;
+  display: inline-block;
+  font-size: 1.05rem;
+  letter-spacing: .1rem;
+  margin: .5rem 1rem;
+  padding: .75em 2rem;
+  text-decoration: none;
+  transition: all .15s ease;
+}
+
+.home a.doc-button {
+  background: #42b983;
+  color: white;
+}
+
+.home a:hover {
+  color: inherit;
+}

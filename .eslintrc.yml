@@ -21,3 +21,4 @@ rules:
   jsx-a11y/anchor-has-content: "off"
   jsx-a11y/anchor-is-valid: "off"
   react/no-unescaped-entities: "off"
+  react/jsx-no-target-blank: "off"
