@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --config webpack.config.dev.js --hot",
     "build": "webpack --config webpack.config.prod.js",
     "fetch-install-script": "curl -fsSL https://raw.githubusercontent.com/boilerplato/boilerplato/master/install.sh > install.sh",
-    "deploy-to-gh-pages": "git checkout master && rm -rf static && cp -r ./dist/* . && npm run fetch-install-scrip && git add --all && git commit -m 'Make a build' && git push",
+    "deploy-to-gh-pages": "git checkout master && rm -rf static && cp -r ./dist/* . && npm run fetch-install-script && git add --all && git commit -m 'Make a build' && git push",
     "release": "git push origin develop && npm run build && npm run deploy-to-gh-pages && git checkout develop"
   },
   "author": "Rousan Ali <hello@rousan.io> (https://rousan.io/)",
