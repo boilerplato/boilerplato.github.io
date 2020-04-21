@@ -20,7 +20,7 @@ class Home extends Component {
           <p className="app-desc">A powerful tool to generate boilerplate source code from a template.</p>
           <div>
             <a href="https://github.com/boilerplato/boilerplato">GitHub</a>
-            <a className="doc-button" href="https://docs.boilerplato.com/">Learn more</a>
+            <a className="doc-button" href="https://docs.boilerplato.com/">Getting Started</a>
           </div>
         </div>
       </div>
