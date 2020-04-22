@@ -42,3 +42,10 @@
 .home a:hover {
   color: inherit;
 }
+
+.home .footer {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
