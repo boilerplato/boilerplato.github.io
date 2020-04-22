@@ -23,6 +23,9 @@ class Home extends Component {
             <a className="doc-button" href="https://docs.boilerplato.com/">Getting Started</a>
           </div>
         </div>
+        <div className="footer">
+          <a href="https://www.producthunt.com/posts/boilerplato?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-boilerplato" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=194128&theme=dark" alt="Boilerplato - A powerful tool to generate boilerplate source code easily | Product Hunt Embed" style={{ width: 250, height: 54 }} width="250px" height="54px" /></a>
+        </div>
       </div>
     );
   }

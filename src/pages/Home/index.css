@@ -20,7 +20,7 @@
   font-weight: 200;
 }
 
-.home a {
+.home .content a {
   border-radius: 2rem;
   border: 1px solid #42b983;
   box-sizing: border-box;

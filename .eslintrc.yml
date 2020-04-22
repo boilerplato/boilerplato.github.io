@@ -22,3 +22,4 @@ rules:
   jsx-a11y/anchor-is-valid: "off"
   react/no-unescaped-entities: "off"
   react/jsx-no-target-blank: "off"
+  jsx-a11y/iframe-has-title: "off"
